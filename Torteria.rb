@@ -21,7 +21,7 @@ class Torteria
 
   def preparar(torta)
     @@number_of_tortas += 1
-    puts "*" * 30 + "TORTERIA IVAN 'EL TERRIBLE' " + "*" * 30 
+    puts "*" * 30 + "TORTERIA IVAN 'EL TERRIBLE' y Mauricio " + "*" * 30 
     puts "1.- Se comienza a preparar la torta: "
     puts "\tSe le hunta al #{torta.tipo[0]}, los #{torta.tipo[1]} y la #{torta.tipo[2]}, "
     puts "\tdentro del pan se agregan los ingredientes: #{torta.tipo[3..7].join(", ")}"
